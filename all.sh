@@ -7,5 +7,5 @@
 ./archer-2tu-driver.sh
 
 #reboot is only because of archer 2tu here
-sudo reboot
+#sudo reboot
 

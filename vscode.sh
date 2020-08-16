@@ -1,5 +1,5 @@
 sudo apt update
-sudo apt install software-properties-common apt-transport-https wget
+sudo apt install software-properties-common apt-transport-https wget -y
 wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add -
 #And enable the Visual Studio Code repository by typing:
 
@@ -7,7 +7,7 @@ sudo add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/v
 #Once the apt repository is enabled , install the latest version of Visual Studio Code with:
 
 sudo apt update
-sudo apt install code
+sudo apt install code -y
 #That’s it. Visual Studio Code has been installed on your Ubuntu desktop and you can start using it.
 
 #Starting Visual Studio Code
@@ -23,7 +23,7 @@ sudo apt install code
 #When a new version is released you can update the Visual Studio Code package through your desktop standard Software Update tool or by running the following commands in your terminal:
 
 sudo apt update
-sudo apt upgrade
+sudo apt upgrade code
 #Conclusion
 #You have successfully installed VS Code on your Ubuntu 18.04 machine. Your next step could be to install Additional Components and customize your User and Workspace Settings .
 
