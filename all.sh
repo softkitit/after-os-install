@@ -13,6 +13,10 @@ sudo apt install -f
 ./archer-2tu-driver.sh
 sudo apt install -f
 ./idea.sh
+sudo apt install -f
+./docker.sh
+sudo apt install -f
+./docker-compose.sh
 
 #reboot is only because of archer 2tu here
 #sudo reboot
