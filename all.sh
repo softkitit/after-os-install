@@ -17,6 +17,7 @@ sudo apt install -f
 ./docker.sh
 sudo apt install -f
 ./docker-compose.sh
+sudo apt install flameshot
 
 #reboot is only because of archer 2tu here
 #sudo reboot
