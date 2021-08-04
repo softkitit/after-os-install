@@ -28,6 +28,10 @@ sudo apt install -f
 ./steam.sh
 sudo apt install -f
 ./teams.sh
+sudo apt install -f
+./java-and-tools.sh
 
+sudo groupadd docker
+sudo usermod -aG docker $USER
 #sudo reboot
 
