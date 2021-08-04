@@ -1,3 +1,5 @@
+DEBIAN_FRONTEND=noninteractive
+
 ./chromium.sh
 sudo apt install -f
 ./google-chrome.sh
@@ -10,15 +12,20 @@ sudo apt install -f
 sudo apt install -f
 ./vscode.sh
 sudo apt install -f
-./archer-2tu-driver.sh
-sudo apt install -f
 ./idea.sh
 sudo apt install -f
 ./docker.sh
 sudo apt install -f
 ./docker-compose.sh
-sudo apt install flameshot
+sudo apt install flameshot -y
+sudo apt install -f
+./npm-nvm-yarn.sh
+sudo apt install -f
+./postman.sh
+sudo apt install -f
+./steam.sh
+sudo apt install -f
+./teams.sh
 
-#reboot is only because of archer 2tu here
 #sudo reboot
 
