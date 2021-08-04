@@ -1,5 +1,7 @@
 DEBIAN_FRONTEND=noninteractive
 
+sudo apt install curl -y
+
 ./chromium.sh
 sudo apt install -f
 ./google-chrome.sh
