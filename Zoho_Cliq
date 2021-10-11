@@ -1,0 +1,5 @@
+sudo apt update
+sudo apt upgrade
+wget https://downloads.zohocdn.com/chat-desktop/linux/cliq_1.5.0_amd64.deb
+
+sudo dpkg --force-confold -i cliq_1.5.0_amd64.deb
