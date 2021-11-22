@@ -11,6 +11,10 @@ echo "=======================wget installed========================"
 # install ssh
 sudo apt install openssh-client
 echo "=======================ssh installed========================"
+# install PulseAudio Volume Control
+sudo apt install pulseaudio
+sudo apt install pavucontrol
+echo "=======================PulseAudio Volume Control installed========================"
 # install archer-2tu-driver
 sudo apt install git dkms -y
 git clone https://github.com/aircrack-ng/rtl8812au.git
